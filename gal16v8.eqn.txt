@@ -1,0 +1,14 @@
+
+
+NC A15 A14 A8 A13 A12 A11 A10 A9 GND
+NC nExxx nBDxx nBCxx nBBxx n0Dxx n0Bxx n09xx n08xx VCC
+
+nExxx =  A15 *  A14 *  A13 * /A12
+nBDxx =  A15 * /A14 *  A13 *  A12 * A11 *  A10 * /A9 *  A8 
+nBCxx =  A15 * /A14 *  A13 *  A12 * A11 *  A10 * /A9 * /A8
+nBBxx =  A15 * /A14 *  A13 *  A12 * A11 * /A10 *  A9 *  A8
+n0Dxx = /A15 * /A14 * /A13 * /A12 * A11 *  A10 * /A9 *  A8 
+n0Bxx = /A15 * /A14 * /A13 * /A12 * A11 * /A10 *  A9 *  A8 
+n09xx = /A15 * /A14 * /A13 * /A12 * A11 * /A10 * /A9 *  A8 
+n08xx = /A15 * /A14 * /A13 * /A12 * A11 *  A10 *  A9 *  A8 
+
